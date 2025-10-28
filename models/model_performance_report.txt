@@ -1,0 +1,34 @@
+======================================================================
+DELAY PREDICTION MODEL - PERFORMANCE REPORT
+======================================================================
+
+Model Type: Random Forest Classifier
+Training Samples: 120
+Test Samples: 30
+Features: 28
+
+Best Parameters:
+  max_depth: 10
+  min_samples_leaf: 2
+  min_samples_split: 2
+  n_estimators: 300
+
+Performance Metrics:
+  Accuracy:  0.467
+  F1 Score:  0.385
+  Recall:    0.357
+  ROC-AUC:   0.420
+
+Cross-Validation F1: 0.534 (+/- 0.052)
+
+Top 10 Features:
+  total_cost: 0.1366
+  Order_Value_INR: 0.0816
+  cost_per_km: 0.0726
+  order_complexity: 0.0664
+  Distance_KM: 0.0621
+  carrier_ontime_rate: 0.0496
+  carrier_reliability_score: 0.0495
+  carrier_avg_rating: 0.0485
+  route_risk_index: 0.0454
+  Destination_encoded: 0.0439
